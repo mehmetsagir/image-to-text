@@ -5,8 +5,7 @@ const GlobalStyles = createGlobalStyle`
 		--color-bg: #0E1117;
 		--color-primary: #151922;
 		--color-primary-hover: #191e26;
-		--color-text: #f1f1f1;
-		--color-text-secondary: #8b949e;
+		--color-text: #8b949e;
 	}
   * {
 		margin: 0;
@@ -26,7 +25,6 @@ const GlobalStyles = createGlobalStyle`
 	} 
 	body {
 		background: var(--color-bg);
-		color: var(--color-text);
 		height: 100%;
 	}
 	a {
@@ -39,22 +37,9 @@ const GlobalStyles = createGlobalStyle`
 		background: none;
 		border: none;
 	}
-	.btn {
-		background: var(--color-primary);
-    color: var(--color-text);
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0 25px;
-    border-radius: 5px;
-    cursor: pointer;
-		white-space: nowrap;
-    transition: 200ms;
-
-    &:hover {
-      background: var(--color-primary-hover);
-    }
+	img {
+		width: 100%;
+		height: 100%;
 	}
 `;
 
